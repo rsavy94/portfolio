@@ -1,0 +1,247 @@
+/* =============== Mobbile / Base Styles ===============*/
+
+/*GLOBAL*/
+
+
+body {
+	background-color: #eee;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	line-height: 1.2;
+}
+
+.wholebody{
+	margin-bottom: 45px;
+	line-height: 1.4;
+}
+
+a{
+	color: #000;
+}
+
+	a:visited {
+		color: #000;
+	}
+
+	a:hover {
+		color: #2c9acf;
+	}
+
+.current {
+	color: #2c9acf;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-size: .85em;
+	margin-top: 10px;
+}
+
+p{
+	margin: 0px;
+	font-size: .85em;
+}
+
+/*==========NAV============*/
+
+.nav>li>a {
+	padding:0px;
+	font-size: 1.8em;
+}
+
+#brandwords1 {
+	margin-top: 25px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+
+.brandwords p{
+	margin-left: 20px;
+	font-size: .85em;
+}
+
+.navbar {
+	border: none;
+}
+
+.navbar-default {
+	background-color: #eee;
+}
+
+		.navbar-default .navbar-toggle {
+			border: none;
+		}
+
+		.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+			background-color: #eee;
+		}
+
+		.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+			border: none;
+		}
+
+.navbar-toggle {
+	margin-top: 17px;
+}
+
+		.navbar-toggle .icon-bar {
+			width: 35px;
+		}
+
+		.navbar-toggle .icon-bar+.icon-bar {
+			margin-top: 8px;
+		}
+
+.navbar-brand {
+	height: 60px;
+	padding: 15px 0px;
+}
+
+
+#logo {
+	width: 50px;
+}
+
+#brandside{
+	padding-right: 0px;
+}
+
+
+.hiddennav {
+	visibility:hidden;
+}
+
+#video {
+	display: inline;
+}
+
+	#nextto {
+		margin-top: 15px;
+	}
+
+	#nextto p{
+		display: inline;
+	}
+
+	
+
+
+/*==============VIDEO PAGE==============*/
+
+.videorow div{
+	margin-top: 35px;
+}
+
+.videorow2 div{
+	margin-top: 35px;
+	margin-bottom: 75px;
+}
+
+.fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-nav span {
+    visibility: visible;
+}
+
+.fancybox-next {
+    right: -60px;
+}
+
+.fancybox-prev {
+    left: -60px;
+}
+
+.rmtitlebuffer {
+	margin-bottom: 100px;
+}
+
+.rmtitlebuffer2 {
+	margin-top: 50px;
+}
+
+/*==================ABOUT PAGE================*/
+
+#aboutpage h1{
+	font-size: 3em;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+#aboutpage h2{
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.contactinfo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+	.contactinfo span{
+		font-weight: 600;
+		color: #2c9acf;
+	}
+
+
+/*===================FORM==================*/
+
+
+
+
+
+
+
+/* =============== Media Query for Tablets ===============*/
+@media only screen and (min-width: 768px) {
+
+.nav>li>a {
+	padding:0px;
+	font-size: .85em;
+}
+
+.brandwords p{
+	margin-left: 10px;
+}
+
+.current {
+	font-weight: 600;
+	}
+
+#nextto a{
+		display: inline;
+	}
+
+	#nextto p{
+		display: inline;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+
+#aboutpage h1{
+	margin-top: 0px;
+}
+
+
+
+
+}
+
+
+
+/* =============== Media Query for Desktop ===============*/
+@media only screen and (min-width: 992px) {
+	
+}
+
+
+/* =============== Media Query for Super Desktop ===============*/
+@media only screen and (min-width: 1200px) {
+	
+}
